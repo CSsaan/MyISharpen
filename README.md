@@ -1,21 +1,15 @@
-## Getting Started
+## Sharpen
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Image sharpening algorithms are a technique used to enhance details and edges in images. These methods can all be used for image sharpening. In short, sharpening is about enhancing the difference on edges (what is an edge, see image edge detection, etc.) to highlight the color brightness value between pixels around the edge.
 
-## Folder Structure
+Edge detection is to find the edge information of the image, that is, the place where the pixel changes greatly, that is, to calculate the gradient value for the derivative, the commonly used method mainly involves the calculation of first-order differentiation and second-order differentiation. Specifically, you should choose the appropriate method according to your needs.
 
-The workspace contains two folders by default, where:
+## Method
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+`Good detection results`: low false detection rate of edges, avoiding the detection of false edges while detecting true edges; The edge position of the marker should be as close as possible to the real edge position on the image.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+When calculating the `gradient of the image` (the intensity of change between pixels), unlike the differential derivation of one-dimensional data, convolutional calculations are mainly used in two-dimensional or above-dimensional arrays (what is convolutional computing, self-search, recently known as due to the fire of deep learning networks), the following are several common image sharpening algorithms:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 
 
