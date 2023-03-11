@@ -50,8 +50,8 @@ When calculating the `gradient of the image` (the intensity of change between pi
 该卷积核的中心权重很大，周围随着距离增加权重系数逐渐降低。示例两种高斯——拉普拉斯卷积核如下： 
 
 <figure>
-<img src="https://github.com/CSsaan/MyISharpen/raw/main/Img/%E9%AB%98%E6%96%AF%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF(%E5%B7%A6).jpg" width = 30%/>
-<img src="https://github.com/CSsaan/MyISharpen/raw/main/Img/%E9%AB%98%E6%96%AF%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF(%E4%B8%AD).jpg" width = 20%/>
+<img src="https://github.com/CSsaan/MyISharpen/raw/main/Img/%E9%AB%98%E6%96%AF%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF(%E5%B7%A6).jpg" width = 10%/>
+<img src="https://github.com/CSsaan/MyISharpen/raw/main/Img/%E9%AB%98%E6%96%AF%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF(%E4%B8%AD).jpg" width = 10%/>
 <img src="https://github.com/CSsaan/MyISharpen/raw/main/Img/%E9%AB%98%E6%96%AF%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF(%E5%8F%B3).jpg" width = 19%/>
 （右为Usharpe Masking法）
 </figure>
